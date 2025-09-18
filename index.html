@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcelino Run - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div id="intro-screen">
+        <video autoplay muted playsinline id="intro-video">
+            <source src="/Videos/intro.mp4" type="video/mp4">
+            Seu navegador não suporta o vídeo de introdução.
+        </video>
+        <button id="skip-button" class="hero-button">Pular</button>
+        <button id="mute-toggle-button" class="hero-button">Ativar Áudio</button>
+        <p id="intro-message">A aventura vai começar...</p>
+    </div>
+
+    <div id="main-content">
+
+        <audio id="background-audio" loop muted>
+            <source src="/Audio/8bit.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
+        </audio>
+
+        <a href="#" id="audio-control-button" title="Controlar Áudio"><i class="fas fa-volume-up"></i></a>
+
+        <div class="stars">
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+        </div>
+
+        <header class="header">
+            <div class="header-content glass-box">
+                <img src="/images/logo_icon.png" alt="Marcelino Run Logo" class="header-logo">
+                <div class="header-text">
+                    <h1 class="header-title">MARCELINO RUN</h1>
+                    <p class="header-subtitle">TI, Vendedor e Estudante de Engenharia de Software</p>
+                </div>
+                <nav class="main-nav">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="projetos.html">Projetos</a>
+                    <a href="contato.html">Contato</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="hero-content glass-box">
+                <h2 class="hero-title"></h2>
+                <p class="hero-text">Empreendedor à frente da HL Tech e estudante, transformando códigos em soluções e ideias em realidade.</p>
+                <a href="projetos.html" class="hero-button">Ver Meus Projetos</a>
+            </div>
+        </section>
+
+        <footer class="main-footer">
+            <div class="container">
+                <p>&copy; 2025 Marcelino.run. Todos os direitos reservados.</p>
+                <p>Feito com <i class="fas fa-heart" style="color: #8A2BE2;"></i> e muito código.</p>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
