@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - Marcelino Run</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="main-content" style="display: block;">
+
+        <audio id="background-audio" loop autoplay muted>
+            <source src="/Audio/8bit.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
+        </audio>
+
+        <a href="#" id="audio-control-button" title="Controlar Áudio"><i class="fas fa-volume-up"></i></a>
+
+        <div class="stars">
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+        </div>
+
+        <header class="header">
+            <div class="header-content glass-box">
+                <img src="/images/logo_icon.png" alt="Marcelino Run Logo" class="header-logo">
+                <div class="header-text">
+                    <h1 class="header-title">MARCELINO RUN</h1>
+                    <p class="header-subtitle">TI, Vendedor e Estudante de Engenharia de Software</p>
+                </div>
+                <nav class="main-nav">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="projetos.html" class="active">Projetos</a>
+                    <a href="contato.html">Contato</a>
+                </nav>
+            </div>
+        </header>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Fases Concluídas</h2>
+                <div class="project-grid">
+                    <div class="project-card glass-box">
+                        <img src="/images/projeto1.png" alt="Imagem do Projeto HL Service">
+                        <h3>Sistema de Gerenciamento de Ordens de Serviço</h3>
+                        <p>Este sistema web foi desenvolvido para gerenciar as ordens de serviço da HL Tech. Ele permite registrar novos atendimentos, rastrear o status de cada reparo e armazenar o histórico de clientes e equipamentos, automatizando todo o fluxo de trabalho.</p>
+                        <div class="project-tech-icons">
+                            <i class="fab fa-react" title="React"></i>
+                            <i class="fab fa-node-js" title="Node.js"></i>
+                            <i class="fas fa-database" title="MongoDB/PostgreSQL"></i>
+                        </div>
+                        <a href="https://github.com/marcelinorun/hl-service-repo" target="_blank" class="project-button">Ver Projeto</a>
+                    </div>
+                    <div class="project-card glass-box">
+                        <img src="/images/projeto2.png" alt="Imagem do Projeto Tech Connect">
+                        <h3>Plataforma de Consultoria e Dicas Tech</h3>
+                        <p>Uma plataforma para compartilhar conhecimento e oferecer consultoria online. O site inclui um blog para dicas e tutoriais, e uma seção de agendamento de consultas virtuais, adaptando os serviços da HL Tech para o formato online.</p>
+                        <div class="project-tech-icons">
+                            <i class="fab fa-html5" title="HTML"></i>
+                            <i class="fab fa-css3-alt" title="CSS"></i>
+                            <i class="fab fa-js-square" title="JavaScript"></i>
+                            <i class="fab fa-firebase" title="Firebase"></i>
+                            <i class="fas fa-calendar-alt" title="Agendamento"></i>
+                        </div>
+                        <a href="https://github.com/marcelinorun/tech-connect-repo" target="_blank" class="project-button">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="main-footer">
+            <div class="container">
+                <p>&copy; 2025 Marcelino.run. Todos os direitos reservados.</p>
+                <p>Feito com <i class="fas fa-heart" style="color: #8A2BE2;"></i> e muito código.</p>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
