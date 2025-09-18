@@ -6,8 +6,7 @@
 
 ## 🎨 Preview
 
-![Prévia do Portfólio](images/projeto1.png) 
-*(Dica: Substitua 'images/projeto1.png' pelo caminho de uma imagem legal do seu projeto!)*
+![Prévia do Portfólio](images/logo_icon.png) 
 
 ---
 
@@ -26,7 +25,6 @@ As seguintes ferramentas e tecnologias foram usadas na construção do projeto:
     * CSS3
     * JavaScript
 
-*(Dica: Se usar alguma biblioteca ou framework no futuro, como React ou Bootstrap, adicione aqui!)*
 
 ---
 
@@ -43,8 +41,8 @@ As seguintes ferramentas e tecnologias foram usadas na construção do projeto:
 
 Como este é um projeto de front-end estático, você pode visualizá-lo facilmente:
 
-1.  Clone este repositório: `git clone https://github.com/seu-usuario/Portfolio.git`
-2.  Navegue até o diretório do projeto: `cd Portfolio`
+1.  Clone este repositório: `git clone https://github.com/marcelinorun/meu-portfolio.git`
+2.  Navegue até o diretório do projeto: `cd meu-portfolio`
 3.  Abra o arquivo `index.html` no seu navegador de preferência.
 
 ---
