@@ -41,7 +41,7 @@ As seguintes ferramentas e tecnologias foram usadas na construção do projeto:
 
 Como este é um projeto de front-end estático, você pode visualizá-lo facilmente:
 
-1.  Clone este repositório: `git clone https://github.com/marcelinorun/meu-portfolio.git`
+1.  Clone este repositório: `git clone https://github.com/marcelinorun/meu-portfolio`
 2.  Navegue até o diretório do projeto: `cd meu-portfolio`
 3.  Abra o arquivo `index.html` no seu navegador de preferência.
 
